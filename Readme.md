@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Moon Star](https://up.htmlacademy.ru/htmlcss/24/user/561767).
-* Наставник: `Неизвестно`.
+* Наставник: [Станислав Кузнецов!](https://htmlacademy.ru/profile/id237925).
 
 ---
 
