@@ -8,21 +8,38 @@
 	<header class="main-header">
 		<section class="main-order">
 			<a class="main-header-logo">
-				<img src="img\logo.png" alt="Логотип компаний">
+				<img src="img\logo.svg" width="220px"  height="47px" alt="Логотип строительной компании «Техномарт»">
 			</a>
-	<!-- Интерактивные элементы пока не проходила оставлю так  -->
-			<div class="main-search">Поиск:</div>
-			<div class="main-bookmarks">Закладки:</div>
-			<div class="main-basket">Корзина:</div>
+			<label> 
+				<!-- иконка поиска -->
+				Поиск:
+				<input type="text" class="search" >
+			</label>
+			<label> 
+				<!-- иконка поиска -->
+				Закладки: 
+				<input type="number" name="bookmarks" value="0"  step="1">
+			</label>
+			</label>
+			<label> 
+				Корзина:
+				<!-- иконка поиска -->
+				<input type="number" name="bookmarks" value="0"  step="1">
+			</label>
+			<button class="button"> Оформить заказ </button>
 		</section>
 		<nav class="main-navigation">
 			<h1 class="main-title">Интернет магазин строительных материалов и инструментов для ремонта
 			</h1>
-			</a>
-			<p class="main-phonenumber">+7 (812) 555-05-55 </p>
-			<address class="main-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 </address>	
-			<button class="btn btn_shop button_enter">Войти</button>
-			<button class="btn btn_shop button_registration">Регистрация</button>
+			<p class="main-phonenumber">
+				<!-- иконка телефона --> 
+			+7 (812) 555-05-55 
+			</p>
+			<address class="main-address"> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 </address>	
+			<ul class="user-navigation">
+				<li><a class="login-link" href="https://echo.htmlacademy.ru">Войти </a></li>
+				<li><a class="user-registration" href="https://echo.htmlacademy.ru"> Регистрация </a></li>
+			</ul>
 			<ul class="main-list">
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="company.html">Компания</a></li>
@@ -57,16 +74,16 @@
 			<p>Вы можете забрать товар сами, <br>
 				заехав в наш офис:</p>
 			<a class="main-map" href="#">
-				<img src="img\map.png" alt="Карта нашей компании">
+				<img src="img\map.png" width="300px" height="158px" alt="Карта нашей компании">
 			</a>
 			<p class="contacts-btn">
-			<a class="button contacts-button" href="#">аблудились? Напишите нам!</a>
+			<a class="button contacts-button" href="#"> Заблудились? Напишите нам!</a>
 			</p>
 		</section>
 	</main>
 	<footer class="main-footer">
 		<a class="main-icon">
-			<img src="img\logo.png" alt="Логотип компаний">
+			<img src="img\logo.svg" width="220px" height="47px" alt="Логотип строительной компании «Техномарт»">
 		</a>
 		<nav class="footer_navigation">
 			<h3 class="visually-hidden"> О Компании </h3>
